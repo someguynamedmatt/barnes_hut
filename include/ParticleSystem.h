@@ -13,6 +13,9 @@
  * is particularly concerened with management of
  * particles _within_ a Universe. While a Universe
  * is concerned with identifying quadrants and centers of mass.
+ *
+ * A Universe has -or can have- four quadrants with four
+ * independent Particle Systems.
  */
 class ParticleSystem {
   std::vector<Particle> v_particles;
