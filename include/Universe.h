@@ -19,14 +19,14 @@ enum Quadrant {
 //-------- Class Def -------
 class Universe {
   std::array<Quadrant, 4> quadrants;
+
   public:
-
     Universe();
-
+    Universe(std::array<Quadrant, 4>);
     Universe(ParticleSystem);
 
     ParticleSystem get_particle_system_from(Quadrant);
-
+    double get_center_of_mass();
 };
 
 #endif
