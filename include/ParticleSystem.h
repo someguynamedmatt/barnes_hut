@@ -11,11 +11,12 @@
 /*
  * A Particle System, while similar in nature to a Universe,
  * is particularly concerened with management of
- * particles _within_ a Universe. While a Universe
- * is concerned with identifying quadrants and centers of mass.
+ * particles _within_ a Universe (or Universal Quadrant). While
+ * a Universe is concerned with Quadrant management.
  *
- * A Universe has -or can have- four quadrants with four
- * independent Particle Systems.
+ * A Universe has -or can have- four Quadrants with four
+ * independent Particle Systems. Or no Quadrants and one
+ * Particle System.
  */
 class ParticleSystem {
   std::vector<Particle> v_particles;
