@@ -10,10 +10,10 @@
 // Quadrants broken down as a standard Cartesian
 // coordinate set
 enum Quadrant {
-  Q1,
-  Q2,
-  Q3,
-  Q4
+  Q1 = 1,
+  Q2 = 2,
+  Q3 = 3,
+  Q4 = 4
 };
 
 //-------- Class Def -------

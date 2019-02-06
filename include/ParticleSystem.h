@@ -19,13 +19,14 @@
  * Particle System.
  */
 class ParticleSystem {
-  std::vector<Particle> v_particles;
+  std::vector<Particle> particles;
 
   public:
-    ParticleSystem();
     ParticleSystem(std::vector<Particle>);
 
     std::vector<Particle> get_particles();
+
+    void add_particle(Particle);
 };
 
 #endif
